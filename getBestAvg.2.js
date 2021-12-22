@@ -14,6 +14,6 @@ let getBestStudent = function(obj){
         console.log(`${prop}s avg = ${(obj[prop].reduce((a,b)=>a+b)/obj[prop].length).toFixed(2)}`)
     }
    }
- return `${name}`;
+ return `${name} is the student with best avg`;
 }
 console.log(getBestStudent(obj));
